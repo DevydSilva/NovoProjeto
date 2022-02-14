@@ -1,5 +1,5 @@
 import React from 'react';
-import { CustomButton} from './styles';
+import { CustomButton, SignMessageButton} from './styles';
 
 export default () => {
   //const handleSignClick = () => {
@@ -9,7 +9,6 @@ export default () => {
     <>
     <CustomButton />
     <SignMessageButton />
-    
     </> 
     
     )    
