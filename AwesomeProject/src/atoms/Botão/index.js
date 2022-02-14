@@ -5,5 +5,12 @@ export default () => {
   //const handleSignClick = () => {
     //console.warn('esta ok')
   //}
-  return  <CustomButton />    
+  return ( 
+    <>
+    <CustomButton />
+    <SignMessageButton />
+    
+    </> 
+    
+    )    
 };

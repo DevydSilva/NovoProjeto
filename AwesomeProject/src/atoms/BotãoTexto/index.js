@@ -1,8 +1,8 @@
 import React from "react";
-import { CustomButtonttonText } from "./styles";
+import { SignMessageButtonText } from "./styles";
 
-export default () => {
+export default BotãoTextos2 = (props) => {
   return (
-    <CustomButtonttonText>LOGIN</CustomButtonttonText>
+    <SignMessageButtonText>{props.BotãoTextos2}</SignMessageButtonText>
   )
 }
