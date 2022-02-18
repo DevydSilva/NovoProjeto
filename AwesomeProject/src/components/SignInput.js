@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/native';
-import {azul3, Azul2} from '../atoms/color';
+import {azul3,  Azul2} from '../atoms/color';
 
 const InputArea = styled.View`
     width: 100%;
