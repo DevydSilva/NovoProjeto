@@ -22,7 +22,7 @@ import LockIcon from '../../atoms/imagens/lock.svg';
 
 
 export default () => {
-  const { dispatch: userDispatch} = UserContext(UserContext);
+  const { dispatch: userDispatch} = useContext(UserContext);
   const navigation = useNavigation();
 
   const [emailField, setEmailField] = useState("");
@@ -54,6 +54,12 @@ export default () => {
     }
   }
 
+  const handleMessageButtonClick = () => {
+    navigation.reset({
+        routes: [{name: 'SignUp'}]
+    });
+}
+
   return (
     <Container>
       <BarberLoga width="100%" height="160" />
@@ -76,7 +82,7 @@ export default () => {
       </CustomButton>
       </InputArea>
       
-      <SignMessageButton>
+      <SignMessageButton onPress={handleMessageButtonClick}>
         <BotãoTextos2 BotãoTextos2="Ainda não possui uma conta?" />
         <TextoBold TextoBold="Cadastre-se" />
       </SignMessageButton>

@@ -2,7 +2,7 @@ import React from 'react';
 import { createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import Preload from '../../pages/Preload';
-import SignIn from '../../pages/SighIn';
+import SignIn from '../../pages/SignIn';
 import SignUp from '../../pages/SignUp';
 import MainTab from '../stacks/MainTab';
 import Barder from '../../pages/Barber';

@@ -6,4 +6,5 @@ export const Banco = "#FFFFFF"
 export const Preto = "#000000"
 export const Preto2 ="rgba(0, 0, 0, 0.5)"
 export const CinzaClaro ="#737373"
+export const CinzaClaro2 ="#999999"
 

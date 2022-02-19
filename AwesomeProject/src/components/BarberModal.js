@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 import {Preto2, azul3, Banco, Preto, Azul2} from '../atoms/color';
 import { useNavigation } from "@react-navigation/native";
 
-import ExpandIcon from '../atoms/imagens/expond.svg';
+import ExpandIcon from '../atoms/imagens/expand.svg';
 import NavPrevIcon from '../atoms/imagens/nav_prev.svg';
 import NavNextIcon from '../atoms/imagens/nav_next.svg'
 
