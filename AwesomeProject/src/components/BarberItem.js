@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 import {Banco, Azul4, Azul2 } from '../atoms/color';
 import { useNavigation } from '@react-navigation/native';
 
-import Stars from '../components/Stars';
+import Stars from './Stars';
 
 const Area = styled.TouchableOpacity`
     background-color: ${Banco};

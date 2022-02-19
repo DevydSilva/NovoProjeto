@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import styled from 'styled-components/native';
 import {Azul4, Banco} from '../atoms/color';
 
-import { UserContext } from '../navegador/contexts/UserContexts';
+import { UserContext } from '../navegagor/contexts/UserContexts';
 
 import HomeIcon from '../atoms/imagens/home.svg';
 import SearchIcon from '../atoms/imagens/search.svg';

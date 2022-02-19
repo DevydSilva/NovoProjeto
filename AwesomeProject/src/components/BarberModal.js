@@ -5,7 +5,7 @@ import { useNavigation } from "@react-navigation/native";
 
 import ExpandIcon from '../atoms/imagens/expand.svg';
 import NavPrevIcon from '../atoms/imagens/nav_prev.svg';
-import NavNextIcon from '../atoms/imagens/nav_next.svg'
+import NavNextIcon from '../atoms/imagens/nav_next.svg';
 
 const Modal = styled.Modal``;
 
