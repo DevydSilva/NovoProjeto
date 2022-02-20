@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import { UserContext } from '../../navegagor/contexts/UserContexts';
+import { UserContext } from '../../navegador/contexts/UserContexts';
 
 import {Container} from './styles';
 import Texto from '../../atoms/Texto';
