@@ -1,26 +1,30 @@
 // import React from "react";
-// import { NavigationContainer} from '@react-navigation/native';
-
-// import UserContextProvider from './navegagor/contexts/UserContexts';
-// import MainStack from './navegagor/contexts/UserContexts'
+// import {View, Text} from 'react-native'
 
 // export default () => {
-//   return(
-//     <UserContextProvider>
-//       <NavigationContainer>
-//         <MainStack />
-//       </NavigationContainer>
-//     </UserContextProvider>
+//   return (
+//     <View>
+//       <Text>Ola mundo</Text>
+//     </View>
 //   )
 // }
 
-import React from "react";
-import {Text} from 'react-navigation'
 
-export default function App(){
-  return (
-    <>
-      <Text>Ola mundo</Text>
-    </>
+
+import React from "react";
+import { NavigationContainer} from '@react-navigation/native';
+import UserContextProvider from './navegagor/contexts/UserContexts';
+import MainStack from './navegagor/stacks/MainStack';  
+
+export default () => {
+  return(
+    <UserContextProvider>
+      <NavigationContainer>
+        <MainStack />
+      </NavigationContainer>
+    </UserContextProvider>
   )
 }
+
+
+

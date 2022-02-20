@@ -29,7 +29,7 @@ export const SwipeDotActive = styled.View`
 
 export const SwipeItem = styled.View`
        flex: 1;
-       background-color: #63C2D1;
+       background-color: ${azul};
 `;
 
 export const SwipeImage = styled.Image`
